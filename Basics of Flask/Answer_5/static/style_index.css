@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Flash messages */
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+ul li.success {
+    background-color: #28a745;
+}
+
+ul li.danger {
+    background-color: #dc3545;
+}
+
+ul li.info {
+    background-color: #17a2b8;
+}

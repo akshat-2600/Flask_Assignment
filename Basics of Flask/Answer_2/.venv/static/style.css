@@ -1,0 +1,29 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: white
+}
+
+nav {
+    margin-top: 10px;
+    color: white;
+}
+
+main {
+    padding: 20px
+}
